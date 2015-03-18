@@ -7,5 +7,5 @@ echo ${version[1]}
 if [ "${version[0]}" -gt "1" ] || ( [ "${version[0]}" -eq "1" ] && [ "${version[1]}" -gt "8" ] ); then
   echo "Compatible"
 else 
-  echo "Not compatible"
+  echo "Not compatible version"
 fi;
